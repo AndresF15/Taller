@@ -54,13 +54,16 @@ header h1{
 /* Inicio componentes datos */
 #contenedor{
     display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .contenedor-datos{
     display: grid;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
     align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -69,8 +72,9 @@ header h1{
 
 .datos-seccion{
     text-align: center;
-    width: 280px;
+    width: 300px;
     height: 25px;
+    padding: 10px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -78,6 +82,7 @@ header h1{
 .datos{
     border: 1px solid rgba(0, 0, 0, 0.404);
     text-align: center;
+    width: 300px;
     padding: 10px;
 }
 /* Fin componentes datos */
