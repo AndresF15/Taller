@@ -34,7 +34,7 @@ header h1{
     position: relative;
     width: 12%;
     height: 12%;
-    border: 3px solid black;
+    border: 3px solid rgba(0, 0, 0, 0.404);
     border-radius: 50%;
     left: 100px;
 }
@@ -55,9 +55,7 @@ header h1{
 #contenedor{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: 30px 80px 0 80px;
 }
 
 .contenedor-datos{
@@ -86,3 +84,17 @@ header h1{
     padding: 10px;
 }
 /* Fin componentes datos */
+
+/* Inicio descripcion de perfil profesional */
+#perfil{
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    border-radius: 70px;
+    margin: 30px 200px 0 200px;
+    padding: 2.5%;
+}
+
+#perfil p{
+    font-size: 18px;
+    text-align: justify;
+}
+/* Fin descripcion de perfil profesional */
