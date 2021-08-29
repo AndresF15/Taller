@@ -65,7 +65,7 @@ header h1{
     align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 10px;
+    row-gap: 6px;
 }
 
 .datos-seccion{
@@ -98,3 +98,20 @@ header h1{
     text-align: justify;
 }
 /* Fin descripcion de perfil profesional */
+
+/* Inicio footer */
+    footer{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    footer p{
+        color: rgba(0, 0, 0, 0.61);
+        font-size: 14px;
+    }
+
+    footer img{
+        margin-top: 12px;
+        width: 28px;
+    }
+/* Fin footer */
