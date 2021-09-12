@@ -49,7 +49,7 @@ header h1{
 }
 
 #hv h2{
-    width: 80%;
+    width: 100%;
     text-align: center;
     color: rgba(83, 88, 95, 0.884);
     font-size: var(--tamaño-titulo);
